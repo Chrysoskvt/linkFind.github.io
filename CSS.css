@@ -1,0 +1,145 @@
+
+h1{
+    font-size: 1.6rem;
+}
+li{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #ffd358;
+}
+
+.header{
+    background-color: #287265;
+    height: 70px;
+    width: auto;
+    margin: 0px;
+}
+nav{
+    /*min-height: 10vh;*/
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-left: 17px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul li a{
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+
+ul li a:hover{
+    color:#ffd358;
+   text-decoration: underline;
+}
+.menu li{
+    float: left;
+    padding: 5px;
+    margin-left:30px;
+}
+.menu li a{
+    text-decoration: none;   
+}
+/*
+form{
+    padding: 75px;
+    text-align: right;
+}
+input[type="search"]{
+    font-size: 17px;
+    border-radius: 2px;
+}
+*/
+.search{
+    width: 300px;
+    float: left;
+    margin-left :230px; ;
+}
+.srch{
+    font-family: 'Time New Roman';
+    width: 180px;
+    height: 30px;
+    background: rgb(248, 243, 243);
+    border: 1px solid #ffd358;
+    margin-top: 7px;
+    color: rgb(0, 0, 0);
+    margin-right: none;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    background: #e7b11c;
+    border: 2px solid #e7b21e;
+    margin-top: 7px;
+    color :#fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px ;
+    border-top-right-radius: 5px;
+}
+.btn:hover{
+    background-color: #ffd358;
+}
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+    outline: none;
+}
+.hero{
+    min-height: 90vh;
+    /*min-width: 90vh;*/
+    background: linear-gradient(rgb(0,0,0,0.7),transparent),url(image/img1.JPG);
+    background-size: cover;
+    background-position: bottom;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ 
+ .hero h3{
+     font-size: 1rem;
+     padding: 0.5rem;
+     font-family: Cambria, serif;
+ }
+ .hero h2{
+     font-size: 2rem;
+ }
+ .butn{
+    padding: 0.5rem 1rem;
+    background-color: #0f502c;
+    color: #e7b11c ;
+    font-family:'Times New Roman', serif;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: .3s ease;
+ }
+ .butn a{
+     text-decoration: none;
+     color: #fff;
+ }
+ .butn:hover{
+     background-color: rgb(60, 148, 82);
+ }
+
